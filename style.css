@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto; /* Alinha na horizonatal*/
+    display: flex; 
+}
+
+.header{
+    border-bottom: 3px solid #32b9cd;
+
+}
+
+.titulo{
+    color: #32b9cd;
+    font-weight: 500; /* controla a grossura bold*/
+}
+
+.navbar {
+    width: 400px;
+    display: flex;
+    color: #e3b062;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+
+}
+
+.header .container{
+    justify-content: space-between; /* Dentro da classe header e dentro da classe container voce justifica os itens, com espalo entre eles, APENAS E tudo que for .header e estiver dentro do .container ficara com mesmo estilo, se estiver fora do header não vai estilizar*/
+
+}
